@@ -1,0 +1,128 @@
+
+[92m
+ ██████╗ ██╗    ██╗ █████╗ ███████╗ █████╗ ██████╗    ██╗ ██████╗ 
+██╔═══██╗██║    ██║██╔══██╗██╔════╝██╔══██╗██╔══██╗   ██║██╔═══██╗
+██║   ██║██║ █╗ ██║███████║███████╗███████║██████╔╝   ██║██║   ██║
+██║▄▄ ██║██║███╗██║██╔══██║╚════██║██╔══██║██╔══██╗   ██║██║   ██║
+╚██████╔╝╚███╔███╔╝██║  ██║███████║██║  ██║██║  ██║██╗██║╚██████╔╝
+ ╚══▀▀═╝  ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝ ╚═════╝ 
+																																 [0m
+Booting Gandalf v4.0.3-df2e622 (production)
+Loading parameters:  [32mOK[0m
+User morzy_m connection: [32mOK[0m
+
+
+<MY-COUNT-FILES>
+Directory ex00 exists: [32mOK[0m
+Pushing exercise: [32mOK[0m
+Printing your report:
+
+ [97;1;40m     REPORT      [0m  [97mMY-COUNT-FILES[0m 
+
+ Status             [91mFAILURE[0m        
+ Execution Runtime  0.027526       
+ Score              [[32m=[0m[33m-[0m] 1/2       
+
+
+Checks detail Report:
+
+ [97;1;40m     TEST CASE 0     [0m  [92m           SUCCESS           [0m 
+
+ Input                                                
+ Expected Output        "my_count_files: file exists" 
+ Expected Return Value                                
+ Output                 "my_count_files: file exists" 
+ Return Value                                         
+
+
+ [97;1;40m     TEST CASE 1     [0m  [91m FAILURE  [0m 
+
+ Input                             
+ Expected Output        "[\"21\"]" 
+ Expected Return Value             
+ Output                 "[\"22\"]" 
+ Return Value                      
+
+</MY-COUNT-FILES>
+
+
+<MY-CLEAN>
+Directory ex01 exists: [32mOK[0m
+Pushing exercise: [32mOK[0m
+Printing your report:
+
+ [97;1;40m     REPORT      [0m  [97mMY-CLEAN [0m 
+
+ Status             [92mSUCCESS[0m   
+ Execution Runtime  0.039746  
+ Score              [[32m=[0m[32m=[0m[32m=[0m] 3/3 
+
+</MY-CLEAN>
+
+
+<MY-FIND-SH>
+Directory ex02 exists: [32mOK[0m
+Pushing exercise: [32mOK[0m
+Printing your report:
+
+ [97;1;40m     REPORT      [0m  [97mMY-FIND-SH[0m 
+
+ Status             [91mFAILURE[0m    
+ Execution Runtime  0.058594   
+ Score              [[32m=[0m[33m-[0m] 1/2   
+
+
+Checks detail Report:
+
+ [97;1;40m     TEST CASE 0     [0m  [92m         SUCCESS         [0m 
+
+ Input                                            
+ Expected Output        "my_find_sh: file exists" 
+ Expected Return Value                            
+ Output                 "my_find_sh: file exists" 
+ Return Value                                     
+
+
+ [97;1;40m     TEST CASE 1     [0m  [91m                                                                              FAILURE                                                                              [0m 
+
+ Input                                                                                                                                                                                      
+ Expected Output        "[\"w.sh.shEWN.sh\", \"Yfbnud.shNq.shT.sh\", \"Ek.sh.sh\", \"Qj.shd.sh\"]"                                                                                          
+ Expected Return Value                                                                                                                                                                      
+ Output                 "[\"yP..shPxW.sh.shM.shVCQ.sh\", \"Bg.shp.shCC.shKB.sh.shr#p.shGw.\", \"w.sh.shEWN.sh\", \".sh.I.shSsB.shJ\", \"Yfbnud.shNq.shT.sh\", \"Ek.sh.sh\", \"Qj.shd.sh\"]" 
+ Return Value                                                                                                                                                                               
+
+</MY-FIND-SH>
+
+
+<MY-PATCH>
+Directory ex03 exists: [32mOK[0m
+Pushing exercise: [32mOK[0m
+Printing your report:
+
+ [97;1;40m     REPORT      [0m  [97mMY-PATCH[0m 
+
+ Status             [91mFAILURE[0m  
+ Execution Runtime  0.000138 
+ Score              [[32m=[0m[33m-[0m] 1/2 
+
+
+Checks detail Report:
+
+ [97;1;40m     TEST CASE 0     [0m  [92m        SUCCESS        [0m 
+
+ Input                                          
+ Expected Output        "my_patch: file exists" 
+ Expected Return Value                          
+ Output                 "my_patch: file exists" 
+ Return Value                                   
+
+
+ [97;1;40m     TEST CASE 1     [0m  [91m                                                                                                                                                                                                                                                                               FAILURE                                                                                                                                                                                                                                                                               [0m 
+
+ Input                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+ Expected Output        "Episode V, A NEW H0PE It is a period of civil war\nRebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. \nDuring the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the STAR DEATH, an armored space station with enough power to destroy an entire planet.\n\n\nPursued by the Empire's sinister agents,\nPrincess Mehdi races home aboard her starship, custodian of the stolen plans that can save her people and restore the dictatorship to the galaxie..\n\n\n\n" 
+ Expected Return Value                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+ Output                 "Episode V, A NEW H0PE It is a period of civil war\nRebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire.\nDuring the battle, Rebel spies managed to steal secret plans to the Empire's ultimate weapon, the STAR DEATH, an armored space station with enough power to destroy an entire planet.\n\n\nPursued by the Empire's sinister agents,\nPrincess Mehdi races home aboard her starship, custodian of the stolen plans that can save her people and restore the dictatorship to the galaxie..\n\n\n\n"  
+ Return Value                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+
+</MY-PATCH>

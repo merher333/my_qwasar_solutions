@@ -1,0 +1,9 @@
+import pandas as pd
+from io import StringIO
+from sklearn.metrics import r2_score
+
+
+def my_model_evaluation_journey_r2_score(param_1, param_2):
+    df_true = pd.read_csv(StringIO(param_1)).iloc[:, 1:]
+    df_pred = pd.read_csv(StringIO(param_2)).iloc[:, 1:]
+    return r2_score(df_true, df_pred)
